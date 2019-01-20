@@ -14,9 +14,9 @@ implement them to make their own special sound?
     
 3. Now how would you model a rooster?
     
-    a. A rooster says: “Cock-a-doodle-doo”    
-    b. How is the rooster related to the chicken?    
-    c. Can you think of other ways to model a rooster without using inheritance?
+    a. A rooster says: “Cock-a-doodle-doo” **`Done`**    
+    b. How is the rooster related to the chicken? **`Rooster is a specific type of Chicken`**   
+    c. Can you think of other ways to model a rooster without using inheritance? **`We can think rooster as an animal or a Bird and implement all the related behaviours according to the rooster itself without implements or extend from chicken.`**
 
 
 4. Can you model a parrot? We are specifically interested in three parrots, one that
