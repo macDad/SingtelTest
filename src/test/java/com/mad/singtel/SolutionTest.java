@@ -1,9 +1,10 @@
 package com.mad.singtel;
 
-import com.mad.singtel.helper.SingHelper;
-import com.mad.singtel.miscellaneous.AnimalCount;
-import com.mad.singtel.utils.enmus.LanguageEnums;
-import com.mad.singtel.utils.enmus.SoundEnums;
+import com.mad.singtel.rest.api.*;
+import com.mad.singtel.rest.api.helper.SingHelper;
+import com.mad.singtel.rest.api.miscellaneous.AnimalCount;
+import com.mad.singtel.rest.api.utils.enmus.LanguageEnums;
+import com.mad.singtel.rest.api.utils.enmus.SoundEnums;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -89,6 +90,11 @@ class SolutionTest {
         assertThat(outContent.toString(), containsString("Cock-a-doodle-doo"));
         new Rooster(LanguageEnums.DANISH).callSound();
         assertThat(outContent.toString(), containsString("kykyliky"));
+
+        new Dog(new SingHelper(SoundEnums.DOG)).callSound();
+        assertThat(outContent.toString(), containsString("Woof, woof"));
+        new Cat(new SingHelper(SoundEnums.CAT)).callSound();
+        assertThat(outContent.toString(), containsString("Meow"));
 
         new Parrot().callSound();
         assertThat(outContent.toString(), containsString("I am singing"));

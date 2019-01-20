@@ -84,4 +84,4 @@ rooster as a PoC for demonstrating this. For example, this is how the Rooster so
 differently depending on language. Please add the rooster sound in your native
 tongue. **`Done`**
 
-2. Can you design a RESTful API for querying these animals?
+2. Can you design a RESTful API for querying these animals?**`Done`**
