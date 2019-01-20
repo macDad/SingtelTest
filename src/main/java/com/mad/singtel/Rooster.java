@@ -7,4 +7,9 @@ public class Rooster extends Chicken {
     public Rooster() {
         super(new SingHelper(SoundEnums.ROOSTER));
     }
+
+    @Override
+    public void canFly() {
+        super.canFly();
+    }
 }

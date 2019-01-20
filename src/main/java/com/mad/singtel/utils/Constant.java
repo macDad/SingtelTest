@@ -7,5 +7,6 @@ public class Constant {
     public static final String I_AM_SWIMMING = "I am swimming";
     public static final String I_MAKE_JOKES = "I make jokes";
     public static final String I_EAT_FISH = "I eat fish";
+    public static final String I_CANT_FLY = "I cant Fly";
 
 }

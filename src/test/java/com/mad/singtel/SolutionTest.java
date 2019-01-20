@@ -138,4 +138,32 @@ class SolutionTest {
         assertThat(outContent.toString(), containsString("I make jokes"));
     }
 
+    @Test
+    void CountingAnimals() {
+
+        Animal[] animals = new Animal[]{
+                new Bird(),
+                new Duck(),
+                new Chicken(),
+                new Rooster(),
+                new Parrot(),
+                new Fish(),
+                new Shark(),
+                new Clownfish(),
+                new Dolphin(),
+                new Frog(),
+                new Dog(),
+                new Butterfly(),
+                new Cat()
+        };
+        AnimalCount animalCount = new AnimalCount(animals);
+
+        assertEquals(animalCount.flyingAnimal, 6);
+        assertEquals(animalCount.walkingAnimal, 9);
+        assertEquals(animalCount.speakingAnimal, 9);
+        assertEquals(animalCount.swimingAnimal, 6);
+
+
+    }
+
 }

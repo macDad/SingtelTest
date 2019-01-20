@@ -5,6 +5,7 @@ import com.mad.singtel.behaviors.NotFlyable;
 import com.mad.singtel.behaviors.NotSpeakable;
 import com.mad.singtel.behaviors.Speakable;
 import com.mad.singtel.helper.SingHelper;
+import com.mad.singtel.utils.Constant;
 import com.mad.singtel.utils.enmus.SoundEnums;
 
 public class Butterfly extends Insect {
@@ -64,7 +65,7 @@ public class Butterfly extends Insect {
 
         @Override
         public void canFly() {
-            System.out.println("I cant Fly");
+            System.out.println(Constant.I_CANT_FLY);
         }
     }
 }

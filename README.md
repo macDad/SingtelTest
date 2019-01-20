@@ -70,10 +70,10 @@ Suppose you have an array of animals, e.g.
 
 1. Can you share the code to count:
 
-    a. how many of these animals can fly?`_``_`    
-    b. how many of these animals can walk?    
-    c. how many of these animals can sing?    
-    d. how many of these animals can swim?
+    a. how many of these animals can fly?**`Done`**     
+    b. how many of these animals can walk?    **`Done`**    
+    c. how many of these animals can sing?   **`Done`**     
+    d. how many of these animals can swim?**`Done`**
 
 BONUS
 

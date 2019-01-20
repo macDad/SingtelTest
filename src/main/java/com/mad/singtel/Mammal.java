@@ -1,21 +1,19 @@
 package com.mad.singtel;
 
-import com.mad.singtel.behaviors.Flyable;
 import com.mad.singtel.behaviors.Speakable;
 import com.mad.singtel.behaviors.Walkable;
 import com.mad.singtel.helper.SingHelper;
 import com.mad.singtel.utils.Constant;
 import com.mad.singtel.utils.enmus.SoundEnums;
 
-public class Bird extends Animal implements Walkable, Speakable, Flyable {
-
+public abstract class Mammal extends Animal implements Walkable, Speakable {
     private SingHelper singHelper;
 
-    public Bird() {
+    public Mammal() {
         this.singHelper = new SingHelper(SoundEnums.DEFAULT);
     }
 
-    public Bird(SingHelper singHelper) {
+    public Mammal(SingHelper singHelper) {
         this.singHelper = singHelper;
     }
 
@@ -25,10 +23,5 @@ public class Bird extends Animal implements Walkable, Speakable, Flyable {
 
     public void canWalk() {
         System.out.println(Constant.I_AM_WALKING);
-    }
-
-
-    public void canFly() {
-        System.out.println(Constant.I_AM_FLYING);
     }
 }
