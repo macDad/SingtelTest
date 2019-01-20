@@ -5,8 +5,10 @@ public enum SoundEnums {
     CHICKEN("Cluck, cluck"),
     ROOSTER("Cock-a-doodle-doo"),
     DOG("Woof, woof"),
+    CATERPILLAR("caterpillar"),
     CAT("Meow"),
-    DEFAULT("I am singing");
+    DEFAULT("I am singing"),
+    NO_SOUND("");
     private String sound;
 
     SoundEnums(String sound) {

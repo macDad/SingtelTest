@@ -63,6 +63,13 @@ class SolutionTest {
         assertThat(outContent.toString(), containsString("flying"));
         new Butterfly().canFly();
         assertThat(outContent.toString(), containsString("flying"));
+
+        new Butterfly().canFly();
+        assertThat(outContent.toString(), containsString("I cant Fly"));
+        new Butterfly().transform();
+
+        new Butterfly().canFly();
+        assertThat(outContent.toString(), containsString("flying"));
     }
 
     @Test
@@ -87,6 +94,13 @@ class SolutionTest {
         assertThat(outContent.toString(), containsString("Meow"));
         new Parrot(new SingHelper(SoundEnums.ROOSTER)).callSound();
         assertThat(outContent.toString(), containsString("Cock-a-doodle-doo"));
+
+        new Butterfly().callSound();
+        assertThat(outContent.toString(), containsString("caterpillar"));
+        new Butterfly().transform();
+        new Butterfly().callSound();
+        assertThat(outContent.toString(), containsString(""));
+
 
     }
 

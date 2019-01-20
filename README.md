@@ -61,8 +61,8 @@ D. Model animals that change their behaviour over time
 2. Can you optimize your model to account for the metamorphosis from caterpillar to
 butterfly?
 
-    a. A caterpillar cannot fly    
-    b. A caterpillar can walk (crawl)
+    a. A caterpillar cannot fly   **`Done`**  
+    b. A caterpillar can walk (crawl) **`Done`**
 
 E. Counting animals
 

@@ -1,5 +1,5 @@
 package com.mad.singtel.behaviors;
 
-public interface Speakable extends SpeakBehaviors {
+public interface SpeakBehaviors {
     void callSound();
 }
