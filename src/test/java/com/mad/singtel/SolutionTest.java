@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.PrintStream;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -88,6 +89,8 @@ class SolutionTest {
     @Test
     void swim() {
         new Duck().canSwim();
+        assertThat(outContent.toString(), containsString("I am swimming"));
+        new Fish().canSwim();
         assertThat(outContent.toString(), containsString("I am swimming"));
     }
 }

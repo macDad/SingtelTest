@@ -34,9 +34,9 @@ B. Model fish as well as other swimming animals
 
 1. In addition to the birds, can you model a fish?
 
-    a. Fishes don’t sing    
-    b. Fishes don’t walk    
-    c. Fishes can swim
+    a. Fishes don’t sing  **`Done`**   
+    b. Fishes don’t walk **`Done`**    
+    c. Fishes can swim**`Done`** 
 
 2. Can you specialize the fish as a Shark and as a Clownfish?
 
