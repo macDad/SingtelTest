@@ -92,6 +92,8 @@ class SolutionTest {
         assertThat(outContent.toString(), containsString("I am swimming"));
         new Fish().canSwim();
         assertThat(outContent.toString(), containsString("I am swimming"));
+        new Dolphin().canSwim();
+        assertThat(outContent.toString(), containsString("I am swimming"));
     }
 
 

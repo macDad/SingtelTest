@@ -48,8 +48,8 @@ B. Model fish as well as other swimming animals
 
 3. Dolphins are not exactly fish, yet, they are good swimmers
 
-    a. Can you model a dolphin that swims without inheriting from a fish class?    
-    b. How do you avoid duplicating code or introducing unneeded overhead?    
+    a. Can you model a dolphin that swims without inheriting from a fish class? **`Done`**   
+    b. How do you avoid duplicating code or introducing unneeded overhead?  **`Without extend from Fish extend using Animal and implements using Swimmable interface. `**  
 
 D. Model animals that change their behaviour over time
 
