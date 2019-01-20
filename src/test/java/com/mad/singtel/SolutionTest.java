@@ -51,6 +51,8 @@ class SolutionTest {
         assertThat(outContent.toString(), containsString("I am walking"));
         new Rooster().canWalk();
         assertThat(outContent.toString(), containsString("I am walking"));
+        new Butterfly().canWalk();
+        assertThat(outContent.toString(), containsString("I am walking"));
     }
 
     @Test
@@ -58,6 +60,8 @@ class SolutionTest {
         new Duck().canFly();
         assertThat(outContent.toString(), containsString("flying"));
         new Parrot().canFly();
+        assertThat(outContent.toString(), containsString("flying"));
+        new Butterfly().canFly();
         assertThat(outContent.toString(), containsString("flying"));
     }
 

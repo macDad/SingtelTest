@@ -55,8 +55,8 @@ D. Model animals that change their behaviour over time
 
 1. Can you model a butterfly?
 
-    a. A butterfly can fly    
-    b. A butterfly does not make a sound
+    a. A butterfly can fly   **`Done`** 
+    b. A butterfly does not make a sound **`Done`**
 
 2. Can you optimize your model to account for the metamorphosis from caterpillar to
 butterfly?
