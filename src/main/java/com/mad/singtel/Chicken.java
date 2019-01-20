@@ -1,9 +1,15 @@
 package com.mad.singtel;
 
+import com.mad.singtel.helper.SingHelper;
+import com.mad.singtel.utils.enmus.SoundEnums;
+
 public class Chicken extends Bird {
-    @Override
-    public void callSound(String sound) {
-        super.callSound(sound);
+    public Chicken() {
+        super(new SingHelper(SoundEnums.CHICKEN));
+    }
+
+    public Chicken(SingHelper singHelper) {
+        super(singHelper);
     }
 
     @Override

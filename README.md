@@ -23,11 +23,11 @@ implement them to make their own special sound?
 lived in a house with dogs one in a house with cats, the other lived on a farm next to
 the rooster.
 
-    a. A parrot living with dogs says: “Woof, woof”    
-    b. A parrot living with cats says: “Meow”    
-    c. A parrot living near the rooster says: “Cock-a-doodle-doo”    
+    a. A parrot living with dogs says: “Woof, woof”       **`Done`**    
+    b. A parrot living with cats says: “Meow”        **`Done`**   
+    c. A parrot living near the rooster says: “Cock-a-doodle-doo”          **`Done`** 
     d. How do you keep the parrot maintainable? What if we need another parrot
-    lives near a Duck? Or near a phone that rings frequently?
+    lives near a Duck? Or near a phone that rings frequently?       **`Implemented Helper Class for sounds.`**
 
 
 B. Model fish as well as other swimming animals
