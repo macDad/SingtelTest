@@ -39,23 +39,34 @@ class SolutionTest {
 
     @Test
     void walk() {
-        new Animal().walk();
-        assertThat(outContent.toString(), containsString("I am walking"));
 
-        new Bird().walk();
+        new Bird().canWalk();
+        assertThat(outContent.toString(), containsString("I am walking"));
+        new Chicken().canWalk();
+        assertThat(outContent.toString(), containsString("I am walking"));
+        new Duck().canWalk();
         assertThat(outContent.toString(), containsString("I am walking"));
     }
 
     @Test
     void fly() {
-        new Bird().fly();
-        assertThat(outContent.toString(), containsString("I am singing"));
+        new Duck().canFly();
+        assertThat(outContent.toString(), containsString("flying"));
     }
 
     @Test
     void sing() {
-        new Bird().sing();
+        new Bird().callSound("I am singing");
         assertThat(outContent.toString(), containsString("I am singing"));
+        new Duck().callSound("Quack, quack");
+        assertThat(outContent.toString(), containsString("Quack, quack"));
+        new Chicken().callSound("Cluck, cluck");
+        assertThat(outContent.toString(), containsString("Cluck, cluck"));
     }
 
+    @Test
+    void swim() {
+        new Duck().canSwim();
+        assertThat(outContent.toString(), containsString("I am swimming"));
+    }
 }

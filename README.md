@@ -7,10 +7,10 @@
 2. Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you
 implement them to make their own special sound?
 
-    a. A duck says: “Quack, quack”    
-    b. A duck can swim    
-    c. A chicken says: “Cluck, cluck”    
-    d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
+    a. A duck says: “Quack, quack”      **`Done`**      
+    b. A duck can swim        **`Done`**    
+    c. A chicken says: “Cluck, cluck”       **`Done`**     
+    d. A chicken cannot fly     **`Done`**
     
 3. Now how would you model a rooster?
     

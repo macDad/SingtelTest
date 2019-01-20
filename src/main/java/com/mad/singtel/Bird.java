@@ -1,11 +1,19 @@
 package com.mad.singtel;
 
-public class Bird extends Animal {
-    void fly() {
-        System.out.println("I am singing");
+import com.mad.singtel.behaviors.Speakable;
+import com.mad.singtel.behaviors.Walkable;
+import com.mad.singtel.utils.Constant;
+
+public class Bird extends Animal implements Walkable, Speakable {
+
+
+    public void callSound(String sound) {
+        System.out.println(sound);
     }
 
-    public void sing() {
-        System.out.println("I am singing");
+    public void canWalk() {
+        System.out.println(Constant.I_AM_WALKING);
     }
+
+
 }
