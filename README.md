@@ -40,10 +40,10 @@ B. Model fish as well as other swimming animals
 
 2. Can you specialize the fish as a Shark and as a Clownfish?
 
-    a. Sharks are large and grey    
-    b. Clownfish are small and colourful (orange)    
-    c. Clownfish make jokes    
-    d. Sharks eat other fish
+    a. Sharks are large and grey**`Done`**     
+    b. Clownfish are small and colourful (orange)**`Done`**     
+    c. Clownfish make jokes   **`Done`**  
+    d. Sharks eat other fish**`Done`** 
     
 
 3. Dolphins are not exactly fish, yet, they are good swimmers

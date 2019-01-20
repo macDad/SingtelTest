@@ -10,11 +10,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.PrintStream;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringContains.containsString;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 class SolutionTest {
@@ -93,4 +93,29 @@ class SolutionTest {
         new Fish().canSwim();
         assertThat(outContent.toString(), containsString("I am swimming"));
     }
+
+
+    @Test
+    void bodyColor() {
+        assertEquals(new Fish().bodyColor(), null);
+        assertEquals(new Shark().bodyColor(), "grey");
+        assertEquals(new Clownfish().bodyColor(), "orange");
+
+    }
+
+    @Test
+    void bodySize() {
+        assertEquals(new Fish().bodySize(), null);
+        assertEquals(new Shark().bodySize(), "large");
+        assertEquals(new Clownfish().bodySize(), "small");
+    }
+
+    @Test
+    void extraFishTest() {
+        new Shark().canEat();
+        assertThat(outContent.toString(), containsString("I eat fish"));
+        new Clownfish().makeJoke();
+        assertThat(outContent.toString(), containsString("I make jokes"));
+    }
+
 }
