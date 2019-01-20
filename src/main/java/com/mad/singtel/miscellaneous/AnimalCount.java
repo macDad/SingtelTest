@@ -1,5 +1,6 @@
-package com.mad.singtel;
+package com.mad.singtel.miscellaneous;
 
+import com.mad.singtel.Animal;
 import com.mad.singtel.behaviors.Flyable;
 import com.mad.singtel.behaviors.Speakable;
 import com.mad.singtel.behaviors.Swimmable;
@@ -31,4 +32,35 @@ public class AnimalCount {
         }
     }
 
+    public int getFlyingAnimal() {
+        return flyingAnimal;
+    }
+
+    public void setFlyingAnimal(int flyingAnimal) {
+        this.flyingAnimal = flyingAnimal;
+    }
+
+    public int getWalkingAnimal() {
+        return walkingAnimal;
+    }
+
+    public void setWalkingAnimal(int walkingAnimal) {
+        this.walkingAnimal = walkingAnimal;
+    }
+
+    public int getSpeakingAnimal() {
+        return speakingAnimal;
+    }
+
+    public void setSpeakingAnimal(int speakingAnimal) {
+        this.speakingAnimal = speakingAnimal;
+    }
+
+    public int getSwimingAnimal() {
+        return swimingAnimal;
+    }
+
+    public void setSwimingAnimal(int swimingAnimal) {
+        this.swimingAnimal = swimingAnimal;
+    }
 }
